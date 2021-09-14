@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lara-react-portfolio/static/css/main.32e9afd4.chunk.css",
-    "main.js": "/lara-react-portfolio/static/js/main.0753dd74.chunk.js",
-    "main.js.map": "/lara-react-portfolio/static/js/main.0753dd74.chunk.js.map",
+    "main.js": "/lara-react-portfolio/static/js/main.70988244.chunk.js",
+    "main.js.map": "/lara-react-portfolio/static/js/main.70988244.chunk.js.map",
     "runtime-main.js": "/lara-react-portfolio/static/js/runtime-main.8ccac384.js",
     "runtime-main.js.map": "/lara-react-portfolio/static/js/runtime-main.8ccac384.js.map",
     "static/js/2.36336422.chunk.js": "/lara-react-portfolio/static/js/2.36336422.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.8ccac384.js",
     "static/js/2.36336422.chunk.js",
     "static/css/main.32e9afd4.chunk.css",
-    "static/js/main.0753dd74.chunk.js"
+    "static/js/main.70988244.chunk.js"
   ]
 }
