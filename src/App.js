@@ -5,14 +5,13 @@ import "./assets/css/magnific-popup.css";
 import "./assets/css/animate.css";
 import "./assets/css/main.css"; 
 import "./assets/css/responsive.css";
-import "./assets/css/renderPage.css";
 
 import Header from "./components/includes/Header.js";
 import NavTop from "./components/includes/Nav.js";
 import Footer from "./components/includes/Footer.js";
 
 
-import AppRouter from "./config/Router.js"
+import AppRouter from "./Router.js"
 const App = () => {
  
     return (
