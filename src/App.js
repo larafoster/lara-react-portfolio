@@ -1,5 +1,5 @@
 import React from "react";
-
+import { BrowserRouter as Router } from "react-router-dom";
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/magnific-popup.css";
 import "./assets/css/animate.css";
@@ -12,22 +12,16 @@ import Footer from "./components/includes/Footer.js";
 
 
 import AppRouter from "./Router.js"
-const App = () => {
- 
-    return (
-        <>
+
+function App() {
+  return (
+    <Router>
 <Header />
-<NavTop />
-            
-            <div>
-                <AppRouter />
-            </div>
-            
-
+<NavTop />                     
+<AppRouter />                     
 <Footer />
-
-        </>
-    )
+    </Router>
+  );
 }
 
 export default App;

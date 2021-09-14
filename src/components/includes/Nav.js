@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavHashLink } from 'react-router-hash-link';
-import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+ import { Link } from 'react-router-dom';
 
 import NavMobile from './NavMobile';
 import {
@@ -29,17 +29,17 @@ const NavTop = () => {
                        
                             <nav id="mainmenu">
                                 <ul className="nav navbar-nav">
-                                    <li><NavHashLink to="/#top">Top</NavHashLink></li>
+                                    <li><Link to="/#top">Top</Link></li>
 
                                     <li>
-                                        <NavLink to="/#me">About Me</NavLink></li><li>
-                                        <NavHashLink activeClassName="current" to="/skills#navigation">Skills</NavHashLink></li><li>
-                                        <NavHashLink activeClassName="current" to="/experience#navigation">Experience</NavHashLink></li><li>
-                                        <NavHashLink activeClassName="current" to="/education#navigation">Education</NavHashLink></li><li>
-                                        <NavHashLink activeClassName="current" to="/portfolio#navigation">Portfolio</NavHashLink></li>
+                                        <HashLink to="/#me">About Me</HashLink></li><li>
+                                        <Link to="/skills">Skills</Link></li><li>
+                                        <Link to="/experience">Experience</Link></li><li>
+                                        <Link to="/education">Education</Link></li><li>
+                                        <Link to="/portfolio">Portfolio</Link></li>
                                         <li>
 
-                                        <NavHashLink activeClassName="current" to="/contact#navigation">Contact</NavHashLink></li>
+                                        <Link to="/contact">Contact</Link></li>
                                 </ul>
 
                             </nav>
