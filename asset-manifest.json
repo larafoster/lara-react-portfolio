@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/lara-react-portfolio/static/css/main.32e9afd4.chunk.css",
-    "main.js": "/lara-react-portfolio/static/js/main.70988244.chunk.js",
-    "main.js.map": "/lara-react-portfolio/static/js/main.70988244.chunk.js.map",
-    "runtime-main.js": "/lara-react-portfolio/static/js/runtime-main.8ccac384.js",
-    "runtime-main.js.map": "/lara-react-portfolio/static/js/runtime-main.8ccac384.js.map",
-    "static/js/2.36336422.chunk.js": "/lara-react-portfolio/static/js/2.36336422.chunk.js",
-    "static/js/2.36336422.chunk.js.map": "/lara-react-portfolio/static/js/2.36336422.chunk.js.map",
+    "main.js": "/lara-react-portfolio/static/js/main.e1c7b6e4.chunk.js",
+    "main.js.map": "/lara-react-portfolio/static/js/main.e1c7b6e4.chunk.js.map",
+    "runtime-main.js": "/lara-react-portfolio/static/js/runtime-main.17d29819.js",
+    "runtime-main.js.map": "/lara-react-portfolio/static/js/runtime-main.17d29819.js.map",
+    "static/js/2.315b913a.chunk.js": "/lara-react-portfolio/static/js/2.315b913a.chunk.js",
+    "static/js/2.315b913a.chunk.js.map": "/lara-react-portfolio/static/js/2.315b913a.chunk.js.map",
+    "static/js/3.21dd51c6.chunk.js": "/lara-react-portfolio/static/js/3.21dd51c6.chunk.js",
+    "static/js/3.21dd51c6.chunk.js.map": "/lara-react-portfolio/static/js/3.21dd51c6.chunk.js.map",
     "index.html": "/lara-react-portfolio/index.html",
     "static/css/main.32e9afd4.chunk.css.map": "/lara-react-portfolio/static/css/main.32e9afd4.chunk.css.map",
-    "static/js/2.36336422.chunk.js.LICENSE.txt": "/lara-react-portfolio/static/js/2.36336422.chunk.js.LICENSE.txt",
+    "static/js/2.315b913a.chunk.js.LICENSE.txt": "/lara-react-portfolio/static/js/2.315b913a.chunk.js.LICENSE.txt",
     "static/media/1.svg": "/lara-react-portfolio/static/media/1.dd200ea6.svg",
     "static/media/2.png": "/lara-react-portfolio/static/media/2.9922ebf1.png",
     "static/media/cv.8ee9d731.pdf": "/lara-react-portfolio/static/media/cv.8ee9d731.pdf",
@@ -24,9 +26,9 @@
     "static/media/v4clogo.svg": "/lara-react-portfolio/static/media/v4clogo.104edd97.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8ccac384.js",
-    "static/js/2.36336422.chunk.js",
+    "static/js/runtime-main.17d29819.js",
+    "static/js/2.315b913a.chunk.js",
     "static/css/main.32e9afd4.chunk.css",
-    "static/js/main.70988244.chunk.js"
+    "static/js/main.e1c7b6e4.chunk.js"
   ]
 }
