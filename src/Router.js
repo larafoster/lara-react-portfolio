@@ -16,11 +16,14 @@ const AppRouter = () => {
   return (
     <Switch>
       <Route exact path="/"><About /> </Route>
-      <Route path="/skills"><Skills /> </Route>
-      <Route path="/experience"><Experience /> </Route>
-      <Route path="/education"><Education /> </Route>
-      <Route path="/portfolio"><Portfolio /> </Route>
-      <Route path="/contact"><Contact /> </Route>
+      <Route exact path="/#me"><About /> </Route>
+      <Route exact path="/#top"><About /> </Route>
+
+      <Route path="/skills#navigation"><Skills /> </Route>
+      <Route path="/experience#navigation"><Experience /> </Route>
+      <Route path="/education#navigation"><Education /> </Route>
+      <Route path="/portfolio#navigation"><Portfolio /> </Route>
+      <Route path="/contact#navigation"><Contact /> </Route>
       <Route path="/resume"><Pdf1 /> </Route>
       <Route><NoMatch /></Route>
     </Switch>
