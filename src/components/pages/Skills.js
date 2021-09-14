@@ -1,7 +1,6 @@
 import React from "react";
 import { Progress } from "reactstrap";
 
-import Footer from "../includes/Footer";
 const Skills = () => {
   return (
     <>
@@ -171,7 +170,6 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

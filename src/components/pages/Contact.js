@@ -1,7 +1,6 @@
 import React from "react";
 import { ExternalLink } from "react-external-link";
 import { Link } from "react-router-dom";
-import Footer from "../includes/Footer";
 import ContactForm from "../includes/contactForm.js";
 const Contact = () => {
   return (
@@ -98,7 +97,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

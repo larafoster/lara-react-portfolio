@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../includes/Footer";
 const Experience = () => {
   return (
     <>
@@ -205,7 +204,6 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
