@@ -1,0 +1,31 @@
+
+#navigation.menu-two .navbar-nav>li>a {
+    padding: 28px 16px;
+    display: block;
+    position: inherit !important;
+}
+
+#navigation.menu-two .navbar-nav>li.current a,
+#navigation.menu-two .navbar-nav>li a:hover {
+    padding-bottom: 40px;
+}
+
+#navigation.menu-two .navbar-nav>li:last-child {
+    background-color: #3c70b4;
+}
+
+#navigation.menu-two .navbar {
+    display: block;
+}
+
+#navigation.menu-two .navbar-header {
+    float: left;
+}
+
+#navigation.menu-two .navbar-nav>li {
+    float: left;
+}
+
+#navigation.menu-two .navbar-nav {
+    display: block;
+}

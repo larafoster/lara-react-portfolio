@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "./assets/css/bootstrap.min.css";
+import "./assets/css/magnific-popup.css";
+import "./assets/css/animate.css";
+import "./assets/css/main.css"; 
+import "./assets/css/responsive.css";
+import "./assets/css/renderPage.css";
+
+import Header from "./components/includes/Header.js";
+import NavTop from "./components/includes/Nav.js";
+import Footer from "./components/includes/Footer.js";
+
+
+import AppRouter from "./config/Router.js"
+const App = () => {
+ 
+    return (
+        <>
+<Header />
+<NavTop />
+            
+            <div>
+                <AppRouter />
+            </div>
+            
+
+<Footer />
+
+        </>
+    )
 }
 
 export default App;
